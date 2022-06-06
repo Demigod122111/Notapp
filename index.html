@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Notapp | Signup</title>
+  <link href="messages.png" rel="icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="user">
+    <header class="user__header">
+        <img src="messages.png" alt="" width='120' height='120'/>
+        <h1 class="user__title">Create an account for <b>Notapp</b></h1>
+    </header>
+    
+    <form class="form" method='get' action="https://jmad.comserver.repl.co/?ca=true">
+        <div class="form__group">
+            <input type="text" placeholder="Username" class="form__input" name='u' required/>
+        </div>
+        
+        <div class="form__group">
+            <input type="email" placeholder="Email" class="form__input" naem='email' />
+        </div>
+        
+        <div class="form__group">
+            <input type="password" placeholder="Password" class="form__input" required name='pass' />
+        </div>
+        
+        <input class="btn" type="submit" value='Register'>
+    </form>
+</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
